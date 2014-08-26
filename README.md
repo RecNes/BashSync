@@ -7,7 +7,7 @@ Auto synchronization tool from remote files to local. It's running by cron daemo
 Installation
 ============
 
-Depending to user, copy script to anywhere in user home.
+Depending to OS user, copy script to anywhere in user home.
 Edit file with your favorite editor and change lines below:
 
 	RSYNC=/usr/bin/rsync
