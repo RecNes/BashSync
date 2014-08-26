@@ -1,4 +1,11 @@
 #!/bin/sh
+# Cron automated synchronization script.
+#
+# Desc: Synchronize remote folder into local machine. Duplicate processes 
+#       are disallowed until running process finished.
+
+# Author: Sencer HAMARAT (RecNes)
+# E-Mail: sencerhamarat@gmail.com
 
 RSYNC=/usr/bin/rsync
 SSH=/usr/bin/ssh
